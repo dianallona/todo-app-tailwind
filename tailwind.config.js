@@ -15,5 +15,10 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwind-scrollbar")],
+  plugins: [
+    require("postcss-import"),
+    require("tailwindcss"),
+    require("autoprefixer"),
+    require("tailwind-scrollbar"),
+  ],
 };

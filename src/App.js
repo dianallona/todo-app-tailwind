@@ -10,15 +10,6 @@ const App = () => {
     setTodoAddStr("");
   };
 
-  const handleEditTodo = (index, str) => {
-    setTodo((prevState) => {
-      const tempTodo = [...prevState];
-      tempTodo[index] = str;
-
-      return tempTodo;
-    });
-  };
-
   const handleDeleteTodo = (index) => {
     setTodo((prevState) => prevState.filter((t, i) => i !== index));
   };
