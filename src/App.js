@@ -20,7 +20,7 @@ const App = () => {
 
   return (
     <div className="flex w-screen h-screen justify-center items-center bg-yellow-500">
-      <div className="w-1/3 h-3/4 bg-orange-600 rounded-xl shadow-xl overflow-scroll p-6 scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-100  scrollbar-thumb-rounded-full scrollbar-track-rounded-full">
+      <div className="md:w-9/12 lg:w-1/3 xl:w-1/3 2xl:w-1/3 h-3/4 bg-orange-600 rounded-xl shadow-xl overflow-scroll p-6 scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-gray-100  scrollbar-thumb-rounded-full scrollbar-track-rounded-full">
         <p className="text-6xl font-semibold text-center text-white mb-5">
           TODO
         </p>
